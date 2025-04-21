@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cavalli Patterson Portfolio</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: Arial, sans-serif; line-height: 1.6; color: #333; }
+    a { text-decoration: none; color: inherit; }
+    img { max-width: 100%; display: block; }
+    header { background: #1a1a1a; padding: 1rem; }
+    nav { display: flex; justify-content: space-between; align-items: center; max-width: 1200px; margin: auto; }
+    nav h1 { color: #fff; font-size: 1.5rem; }
+    nav ul { list-style: none; display: flex; gap: 1rem; }
+    nav li a { color: #fff; font-weight: bold; }
+    #hero { background: #f4f4f4; padding: 4rem 1rem; text-align: center; }
+    #hero h2 { font-size: 2rem; margin-bottom: 1rem; }
+    #hero p { font-size: 1.2rem; }
+    #portfolio { padding: 2rem 1rem; max-width: 1200px; margin: auto; }
+    .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; }
+    .grid-item { border: 1px solid #ddd; border-radius: 4px; overflow: hidden; background: #fff; }
+    #about, #contact { padding: 2rem 1rem; max-width: 800px; margin: auto; }
+    #about h3, #contact h3 { margin-bottom: 1rem; }
+    #contact form { display: flex; flex-direction: column; gap: 0.5rem; }
+    #contact input, #contact textarea { padding: 0.5rem; border: 1px solid #ccc; border-radius: 4px; }
+    #contact button { padding: 0.7rem; border: none; background: #1a1a1a; color: #fff; cursor: pointer; border-radius: 4px; }
+    footer { text-align: center; padding: 1rem; background: #1a1a1a; color: #fff; }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <h1>Cavalli Patterson</h1>
+      <ul>
+        <li><a href="#hero">Home</a></li>
+        <li><a href="#portfolio">Work</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <section id="hero">
+    <h2>Graphic Designer & Canva Creator</h2>
+    <p>Crafting digital assets & templates that stand out.</p>
+  </section>
+  <section id="portfolio">
+    <h3 style="text-align:center; margin-bottom:1rem;">Portfolio</h3>
+    <div class="grid">
+      <div class="grid-item"><img src="placeholder1.jpg" alt="Design 1"></div>
+      <div class="grid-item"><img src="placeholder2.jpg" alt="Design 2"></div>
+      <div class="grid-item"><img src="placeholder3.jpg" alt="Design 3"></div>
+      <div class="grid-item"><img src="placeholder4.jpg" alt="Design 4"></div>
+    </div>
+  </section>
+  <section id="about">
+    <h3>About Me</h3>
+    <p>Hi, I’m Cavalli, a Jamaica-based graphic designer specializing in Canva templates and digital assets. I help brands and creators elevate their visual presence with custom, editable designs.</p>
+  </section>
+  <section id="contact">
+    <h3>Contact</h3>
+    <form action="mailto:your-email@example.com" method="post" enctype="text/plain">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+  <footer>
+    <p>Connect with me on <a href="#">LinkedIn</a> | <a href="#">Instagram</a></p>
+    <p>&copy; 2025 Cavalli Patterson</p>
+  </footer>
+</body>
+</html>
